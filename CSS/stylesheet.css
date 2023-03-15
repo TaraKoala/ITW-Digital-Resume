@@ -1,5 +1,6 @@
 body {
     background-color: #2C173E;
+    color: antiquewhite;
     font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
@@ -25,14 +26,21 @@ header{
     padding-top: 200px;
     padding-bottom: 200px;
     background-size: cover;
-    background-blend-mode:
 }
 
-img{
+.profile-img{
     width: 200px;
     height: 250px;
     border-radius: 30%;
     margin: 40px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.small-icon{
+    width: 20px;
+    height: 20px;
 }
 
 nav{
@@ -40,10 +48,46 @@ nav{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
     background-color: #A95555;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+
+li a:hover {
+    color: #2C173E;
+    text-decoration: none;
+}
+
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: #2C173E;
+    margin-bottom: 5px;
+}
+@media all and (max-width: 480px) {
+    nav{
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
 }
 
 main{
@@ -86,7 +130,47 @@ main{
 
 footer{
     background-color: rgb(126, 126, 214);
+    padding: 10px 40px 40px 40px;
+    
+}
+.footer-layout{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+.button{
+    background-color:#2C173E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+/*
+@keyframes animatedSquare {
+    0%   {border-radius: 0%;}
+    25%  {border-radius: 100%;
+          transform: translate(200px);}
+    50%  {background-color: blue;
+          transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+  }
+  
+  img {
+    margin: 5%;
+    width: 100px;
+    height: 100px;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    an   
+  }

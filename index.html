@@ -12,22 +12,32 @@
         <picture>
             <source media="(max-width: 650px)" srcset="images/thimage3.jpeg">
             <source media="(max-width: 1000px)" srcset="images/thimage1.jpeg">
-            <img src="images/thimage2.jpeg" alt="Tara profile image">
+            <img src="images/thimage2.jpeg" alt="Tara profile image" class="profile-img">
         </picture>
-        
+
         <div class="hero-text">
             <h1>Tara Hendricks</h1>
             <p>Junior web developer | Web designer | Student of life</p>
             <p>Aspiring web developer with a pasion for art, design and learning</p>
-            <p>Github link</p>
-            <p>contact link</p>
+            <ul>
+                <li><a href="https://github.com/TaraKoala">Github<img src="images/GitHub-Mark.png" alt="github icon" class="small-icon"></a></li>
+                <li><a href="#contact">Contact Details<img src="images/contactdets.png" alt="contact detail image" class="small-icon"></a></li>
+            </ul>
         </div>
     </Header>
     <nav>
-        <p><a href="#experience">Experience</a></p>
-        <p><a href="#education">Education</a></p>
-        <p><a href="#skills">Skills</a></p>
-        <p><a href="#projects">Projects</a></p>
+        <img src="images/logo.jpeg" alt="tara's logo">
+        <ul>
+            <li class="nav-list"><a href="#experience">Experience</a></li>
+            <li class="nav-list"><a href="#education">Education</a></li>
+            <li class="nav-list"><a href="#skills">Skills</a></li>
+            <li class="nav-list"><a href="#projects">Projects</a></li>
+        </ul>
+        <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
     </nav>
     <main>
         <article>
@@ -63,46 +73,53 @@
             </section>
         </aside>
     </main>
-    <footer>
+    <footer id="contact">
         <h3>Contact Me</h3>
-        <p>email address</p>
-        <p>cell phone number</p>
-        <p>social links</p>
-        <form action="https://formsubmit.co/taradecodehendricks@gmail.com" method="POST">
-            <h4>Get in touch</h4>
+        <div class="footer-layout">
             <div>
-                <label for="name" required>Name:</label>
-                <input type="text" id="name" name="user_name" required>
+                <p>Email me: taradecodehendricks@gmail.com</p>
+                <p>Call: 0749074963</p>
+                <div>
+                    <a href="https://github.com/TaraKoala"><img src="images/GitHub-Mark.png" alt="github icon"></a>
+                    <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="linked in" class="linkedimg"></a>
+                    <a href="https://www.instagram.com/tarakoala13/"><img src="images/instagram.png" alt="linked in" class="linkedimg"></a>
+                </div>
             </div>
             <div>
-                <label for="mail" required>Email:</label>
-                <input type="mail" id="mail" name="user_mail" required>
-                    
+                <form action="https://formsubmit.co/taradecodehendricks@gmail.com" method="POST">
+                    <h4>Get in touch</h4>
+                    <div>
+                        <label for="name" required>Name:</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </div>
+                    <div>
+                        <label for="mail" required>Email:</label>
+                        <input type="mail" id="mail" name="user_mail" required>
+                            
+                    </div>
+                    <div>
+                        <p>I'd welcome any feedback! Rate my web design skills:</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="rating" value="Great" required>
+                        <label for="rating">Amazing!</label>
+                        <input type="radio" name="rating" value="Okay">
+                        <label for="rating">It's okay</label>
+                        <input type="radio" name="rating" value="Poor">
+                        <label for="rating">Needs a little work</label>
+                    </div>
+                    <div>
+                        <label for="msg">Leave me a message:</label>
+                    </div>
+                    <div>
+                        <textarea name="leaveamessage" cols="40" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="button">
+                    </div>
+                </form>
             </div>
-            <div>
-                <p>Rate my web design skills:</p>
-            </div>
-            <div>
-                <input type="radio" name="rating" value="Great" required>
-                <label for="rating">Amazing!</label>
-                <input type="radio" name="rating" value="Okay">
-                <label for="rating">It's okay</label>
-                <input type="radio" name="rating" value="meh">
-                <label for="rating">Meh</label>
-                <input type="radio" name="rating" value="Poor">
-                <label for="rating">You need work, girl.</label>
-            </div>
-            <div>
-                <label for="msg">Leave me a message:</label>
-            </div>
-            <div>
-                <textarea name="leaveamessage" cols="50" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit">
-            </div>
-        </form>
-
+        </div>
     </footer>
     
 </body>
