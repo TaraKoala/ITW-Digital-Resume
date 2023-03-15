@@ -1,7 +1,12 @@
 body {
-    background-color: antiquewhite;
+    background-color: #2C173E;
     font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+}
+span{
+    font-style: italic;
+    font-size: 14px;
+    padding-right: 20px;    
 }
 
 header{
@@ -14,8 +19,8 @@ header{
 }
 
 .hero{
-    background-color: blueviolet;
-    background-image: url("/images/bgclouds.jpg");
+    background-color: #481B5C;
+    background-image: linear-gradient(#481a5b86,#ffb59694), url("/images/purplehero.jpg");
     color: antiquewhite;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -25,14 +30,63 @@ header{
 
 img{
     width: 200px;
-    height: 200px;
+    height: 250px;
     border-radius: 30%;
+    margin: 40px;
 }
 
 nav{
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: aqua;
+    background-color: #A95555;
 }
+
+main{
+    display: flex;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 20px;
+    background-image: url(/images/starbg1.png);
+    color: antiquewhite;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    background-image: url(/images/starbg2.png);
+    color: antiquewhite;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 20px;
+    background-image: url(/images/starbg3.png);
+    color: antiquewhite;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(48, 146, 146);
+    color: antiquewhite;
+}
+
+footer{
+    background-color: rgb(126, 126, 214);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+

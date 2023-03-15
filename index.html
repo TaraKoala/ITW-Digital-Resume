@@ -9,7 +9,12 @@
 </head>
 <body>
     <Header class="hero">
-        <img src="images/thimage2.jpeg" alt="Tara profile image">
+        <picture>
+            <source media="(max-width: 650px)" srcset="images/thimage3.jpeg">
+            <source media="(max-width: 1000px)" srcset="images/thimage1.jpeg">
+            <img src="images/thimage2.jpeg" alt="Tara profile image">
+        </picture>
+        
         <div class="hero-text">
             <h1>Tara Hendricks</h1>
             <p>Junior web developer | Web designer | Student of life</p>
@@ -26,30 +31,37 @@
     </nav>
     <main>
         <article>
-            <section id="experience">
+            <section id="experience" class="section1">
                 <h3>Experience</h3>
-                <p><span>date </span>Assitant Manager at Boardriders V&A</p>
-                <p><span>date </span>Production department manager, web design, social media, junior campaign manager</p>
-                <p><span>date </span>Intern at G2L</p>
+                <h4><span>April 2022 - January 2023</span>Assistant Manager at Boardriders V&A. </h4>
+                <p>Run store according to policies and procedures. Open and closing the store, ensure merchandising and housekeeping is maintained. Training facilitating, training staff members on various daily duties within the store, as well as KPIs. Assist with store admin, achieve sales KPIs. Assist with stocktakes and unit counts, even in other stores</p>
+                <h4><span>May 2019 - July 2020</span>Production department lead</h4>
+                <p>Design and maintain websites for platforms. Manage social media accounts, design social media posts, outline marketing schedules. Oversee campaigns for platforms - Cyber Cerebral, DBAT, Cyber Cubs. Handle admin for production department.</p>
+                <h4><span>January 2017 - May 2019</span>Internship and community outreach at Grace2Learn</h4>
+                <p>Facilitate after school tutoring for students. Facilitating extra-mural activities for school children. Mural design for community projects. Doing courses on Graphic design, offering logo design, website design and video editing to community projects and start-ups.</p>
             </section>
-            <section id="education">
+            <section id="education" class="section2">
                 <h3>Education</h3>
                 <p><span>High School</span>Mondale High School, Mitchells Plain</p>
                 <p><span>Highest Grade passed</span>Grade 12 (2013)</p>
                 <p><span>Tertiary</span>120 hour Advanced TEFL course (2022)</p><p>Software Development at CodeSpace</p>
             </section>
-            <section id="skills">
+            <section id="skills" class="section3">
                 <h3>Skills</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Problem solving</li>
                 </ul>
             </section>
-            <section id="projects">
+        </article>
+        <aside>
+            <p>Animation</p>
+            <section id="projects" class="section4">
                 <h3>Projects</h3>
                 <p>View my past works here:</p>
             </section>
-        </article>
+        </aside>
     </main>
     <footer>
         <h3>Contact Me</h3>
