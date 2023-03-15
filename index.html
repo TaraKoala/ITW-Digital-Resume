@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
-    <title>Document</title>
+    <title>Tara's Digital Resume</title>
 </head>
 <body>
-    <Header>
-        <h1>Tara Hendricks</h1>
-        <p>Intro</p>
+    <Header class="hero">
+        <img src="images/thimage2.jpeg" alt="Tara profile image">
+        <div class="hero-text">
+            <h1>Tara Hendricks</h1>
+            <p>Junior web developer | Web designer | Student of life</p>
+            <p>Aspiring web developer with a pasion for art, design and learning</p>
+            <p>Github link</p>
+            <p>contact link</p>
+        </div>
     </Header>
     <nav>
-        <p>Menu</p>
-        <p>Experience</p>
-        <p>Education</p>
-        <p>Skills</p>
-        <p>contact me</p>
+        <p><a href="#experience">Experience</a></p>
+        <p><a href="#education">Education</a></p>
+        <p><a href="#skills">Skills</a></p>
+        <p><a href="#projects">Projects</a></p>
     </nav>
     <main>
         <article>
-            <section>
+            <section id="experience">
                 <h3>Experience</h3>
-                <p><span>date </span>Internship at G2L</p>
-                <p><span>date </span>Production department manager, web design, social media, junior campaign manager</p>
                 <p><span>date </span>Assitant Manager at Boardriders V&A</p>
+                <p><span>date </span>Production department manager, web design, social media, junior campaign manager</p>
+                <p><span>date </span>Intern at G2L</p>
             </section>
-            
+            <section id="education">
+                <h3>Education</h3>
+                <p><span>High School</span>Mondale High School, Mitchells Plain</p>
+                <p><span>Highest Grade passed</span>Grade 12 (2013)</p>
+                <p><span>Tertiary</span>120 hour Advanced TEFL course (2022)</p><p>Software Development at CodeSpace</p>
+            </section>
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h3>Projects</h3>
+                <p>View my past works here:</p>
+            </section>
         </article>
     </main>
     <footer>
@@ -35,9 +56,41 @@
         <p>email address</p>
         <p>cell phone number</p>
         <p>social links</p>
-        <form action="">
-
+        <form action="https://formsubmit.co/taradecodehendricks@gmail.com" method="POST">
+            <h4>Get in touch</h4>
+            <div>
+                <label for="name" required>Name:</label>
+                <input type="text" id="name" name="user_name" required>
+            </div>
+            <div>
+                <label for="mail" required>Email:</label>
+                <input type="mail" id="mail" name="user_mail" required>
+                    
+            </div>
+            <div>
+                <p>Rate my web design skills:</p>
+            </div>
+            <div>
+                <input type="radio" name="rating" value="Great" required>
+                <label for="rating">Amazing!</label>
+                <input type="radio" name="rating" value="Okay">
+                <label for="rating">It's okay</label>
+                <input type="radio" name="rating" value="meh">
+                <label for="rating">Meh</label>
+                <input type="radio" name="rating" value="Poor">
+                <label for="rating">You need work, girl.</label>
+            </div>
+            <div>
+                <label for="msg">Leave me a message:</label>
+            </div>
+            <div>
+                <textarea name="leaveamessage" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
         </form>
+
     </footer>
     
 </body>

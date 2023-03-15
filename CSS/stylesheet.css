@@ -1,7 +1,38 @@
-body{
-    background-image:aquamarine; url(images/galaxy0.jpg);
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
 
-header {
+header{
     display: flex;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    background-color: blueviolet;
+    background-image: url("/images/bgclouds.jpg");
+    color: antiquewhite;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-blend-mode:
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aqua;
 }
