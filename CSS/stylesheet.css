@@ -1,3 +1,7 @@
 body{
-    background-color: aqua;
+    background-image:aquamarine; url(images/galaxy0.jpg);
+}
+
+header {
+    display: flex;
 }
