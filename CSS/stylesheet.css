@@ -86,8 +86,8 @@ header{
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 300px;
 }
 .small-icon{
     width: 20px;
@@ -227,7 +227,8 @@ a:visited {
     display: inline-block;
     font-size: 14px;
 }
-/*
+
+
 @keyframes animatedSquare {
     0%   {border-radius: 0%;}
     25%  {border-radius: 100%;
@@ -237,12 +238,11 @@ a:visited {
     100% {transform: rotate(360deg);}
   }
   
-  img {
+.linkedimg{
     margin: 5%;
     width: 100px;
     height: 100px;
     animation-name: animatedSquare;
     animation-duration: 4s;
-    animation-iteration-count: infinite; 
-    an   
+    animation-iteration-count: infinite;
   }
