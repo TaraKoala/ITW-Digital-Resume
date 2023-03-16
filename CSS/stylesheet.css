@@ -180,16 +180,19 @@ main{
     background-image: url(/images/gridpicbotm.jpeg);
     background-size: cover;
 }
-aside{
-   
-}
+
 .section4{
-    display: grid;
-    flex-direction: column;
     padding: 50px;
     margin: 20px;
     background-color: #A95555;
     color: #faebd7 78%, 91%);
+}
+
+.project-container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
 }
 
 footer{

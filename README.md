@@ -16,12 +16,19 @@ Link to Figma: https://www.figma.com/file/HhDLE7QFWZpzN4xrnd1vpq/TARHEN108_FTC23
 
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Codespace LMS](https://learn.codespace.co.za/courses)
+ - [Codespace LMS][def]
  - [w3 schools](https://www.w3schools.com/css/default.asp)
-- [MDN](https://developer.mozilla.org/en-US/)
-- [Kevin Powell](https://www.youtube.com/@KevinPowell)
+ - [MDN](https://developer.mozilla.org/en-US/)
+ - [Kevin Powell](https://www.youtube.com/@KevinPowell)
+    - [css animation effects](https://www.youtube.com/watch?v=Nloq6uzF8RQ)
+    - [css grid layouts](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1079s)
+    - [flex box or grid?](https://www.youtube.com/watch?v=3elGSZSWTbM)
+ - [CodingNepal - responsive navigation bar](https://www.youtube.com/watch?v=oLgtucwjVII&t=18s)
 
 ## Authors
 
 - [@tarakoala](https://github.com/TaraKoala)
 
+
+
+[def]: https://learn.codespace.co.za/courses
